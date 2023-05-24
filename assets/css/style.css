@@ -71,6 +71,10 @@ label{
     padding-top: 2%;
 }
 
+.i-custom{
+    padding-left: 60%;
+}
+
 .i-custom:hover{
     color: #1F4639 !important;
 }
@@ -80,16 +84,12 @@ label{
 }
 
 
-.imagen-perfil {
-    position: relative;
-    z-index: 2; /* Asegura que la imagen de perfil esté por encima del banner */
-  }
 
 
 @media(max-width: 767px){
    
     .img-custom{
-        padding-top: 30% !important;
+        margin-top: 20% !important;
     }
 
     p{text-align:left;}
@@ -107,7 +107,7 @@ label{
     }
     
     .i-custom{
-        font-size: 1.5rem;   
-       
+        font-size: 2rem;   
+        padding-right: 20%;
     }
 }
